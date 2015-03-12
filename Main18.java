@@ -45,7 +45,7 @@ public class Main18 {
         }
 */
 
-        Scanner in2 = new Scanner(new File("d://java/src/com/company/многоогентная_система/file1.txt"));
+        Scanner in2 = new Scanner(new File("file1.txt"));
         str = in2.nextLine();
 
         in2.close();
