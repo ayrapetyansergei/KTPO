@@ -16,11 +16,11 @@ import java.io.FileNotFoundException;
              PrintWriter file = null;
              try
              {
-                file = new PrintWriter(new FileOutputStream("d://java/src/com/company/многоогентная_система/file1.txt"));
+                file = new PrintWriter(new FileOutputStream("file1.txt"));
              }
              catch(FileNotFoundException e)
              {
-                 System.out.println("Ошибка открытия файла d://java/src/com/company/многоогентная_система/file1.txt");
+                 System.out.println("Ошибка открытия файла file1.txt");
                  System.exit(0);
              }
              file.print(str);
