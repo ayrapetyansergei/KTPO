@@ -8,7 +8,7 @@ public class Main18 {
         Activity[] staff = new Activity[5];
         int i=0;
         String str, s1=null, s2=null , s3=null, s4=null;
-        Scanner in = new Scanner(new File("d://java/src/com/company/многоогентная_система/file.txt"));
+        Scanner in = new Scanner(new File("file.txt"));
         while (in.hasNext()) {
             //s = in.next();
             if (i%4==0)
